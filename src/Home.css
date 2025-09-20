@@ -1,0 +1,130 @@
+.home2{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+}
+.cards{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 1px 2px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    
+
+}
+.cards img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+.home4{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+.home5{
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+}
+.home6{
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+
+.cards3{
+width: 400px;
+height: 200px;
+box-shadow: 0px 1px 2px;
+overflow: hidden;
+border: 8px solid #fc9a99;
+cursor: pointer;
+
+}
+.cards3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cards4{
+    width: 1200px;
+    height: 500px;
+    box-shadow: 0px 1px 2px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.cards4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-home{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.text-home h4{
+    font-size: 30px;
+    color: rgb(80, 78, 78);
+}
+.cards5{
+    width: 300px;
+    height: 400px;
+    border-radius: 80px;
+    border: 8px solid #a02222;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cards5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    align-items: center;
+    gap: 60px;
+    /* color: white; */
+}
+.search {
+    position: relative;
+}
+.search i{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    color: grey;
+}
+.search input{
+    padding: 10px 100px;
+    width: 300px;
+    
+}
+.entre h3{
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.entre p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
