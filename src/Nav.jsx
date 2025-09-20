@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Nav.css"
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
+
+    const[bb,setbb]=useState(false)
+
   return (
+
+    
+
     <>
     
         
@@ -37,22 +44,84 @@ const Nav = () => {
 
                     <ul>
 
-                        <li> <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="" height={20}/> </li>
-                        <li> <img src="https://static.vecteezy.com/system/resources/previews/026/630/551/non_2x/profile-icon-symbol-design-illustration-vector.jpg" alt="" height={20} /> </li>
-                        <li> <img src="https://i.pinimg.com/564x/13/9c/30/139c30b5b3a875a6e9d0500091164289.jpg" alt="" height={20} /> </li>
+                        <li> <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="" height={30}/> </li>
+
+                        <li> <img onClick={()=>{setbb(true)}} src="https://static.vecteezy.com/system/resources/previews/026/630/551/non_2x/profile-icon-symbol-design-illustration-vector.jpg" alt="" height={30} /> </li>
+
+                        
+
+
+                        <li className='l1'> <img src="https://i.pinimg.com/564x/13/9c/30/139c30b5b3a875a6e9d0500091164289.jpg" alt="" height={27} /> </li>
 
                     </ul>
 
                 </div>
 
+                 {bb && <div className="bigbox">
+
+                    <div className="smallbox">
+
+                        
+
+                        
+
+                            <img src="https://www.biba.in/on/demandware.static/-/Library-Sites-BibaSharedLibrary/en_IN/dwdf778587/login-apr11-1.jpg" alt="" />
+
+                        
+                                
+                    
+
+                            
+                                <div className='sp2'>
+
+                                     <button className='btn2' onClick={()=>{setbb(false)}} > X </button>
+                                <p className='p1'> SIGN IN/ SIGN UP  </p>
+                                
+                                <p className='p2'> via OTP  </p>
+                                
+
+                                <div className="img2">
+
+                                <span className='sp3'>
+
+                                    <img src="https://media.istockphoto.com/id/1471401435/vector/round-icon-of-indian-flag.jpg?s=612x612&w=0&k=20&c=kXy7vTsyhEycfrQ9VmI4FpfBFX2cMtQP5XIvTdU8xDE=" alt="" />
+
+                                    <b> +91 </b>
+
+                                    <input type="text" placeholder='Enter your mobile number' /> 
+                                    
+                                </span>
+                                </div>
+
+
+                    <p className='p4'> We will use this to notify you for any updates & offers </p>
+
+                    <span className='sp4'>
+
+                        <input type="checkbox" /> <p className='p5'> Remember Me </p>
+
+
+                    </span>
+
+                    
+
+                    <button className='btn1'> CONTINUE </button>
+
+                    </div>
+                    </div>
+                     
+                
+                
+                </div>}
+
                 <div className="menu">
 
                     <ul>
 
-                        <li className='m1'> FESTIVE'25 </li>
-                        <li> SUITS </li>
-                        <li> KURTAS & TOPS </li>
-                        <li> DRESSES </li>
+                        <li className='m1'>  FESTIVE'25   </li>
+                        <li>  SUITS  </li>
+                        <li>  KURTAS & TOPS  </li>
+                        <li>  DRESSES   </li>
                         <li> DRESS MATERIALS </li> 
                         <li> BOTTOMS </li>
                         <li> JEWELLERY </li>
@@ -70,6 +139,7 @@ const Nav = () => {
 
             </div>
 
+           
             
         
     
