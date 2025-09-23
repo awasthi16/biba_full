@@ -1,15 +1,15 @@
 import React from 'react'
-import './Girls.css'
-import { BrowserRouter,Route, Routes } from 'react-router-dom'
+import './Sale.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-const Girls = () => {
+const Sale = () => {
   return (
-    <>
-    
+   <>
+   
     <div className="table1">
 
       <div className="table2">
-            <div className="hom">HOME / GIRLS</div>
+            <div className="hom">HOME / SALE</div>
                 
         <table></table>
           <tr className='border'>
@@ -60,14 +60,14 @@ const Girls = () => {
        <div className="girl1">
 
          <div className="heding">
-                  <h2>GIRLS</h2><a> 15 product</a> 
+                  <h2>SALE</h2><a> 15 product</a> 
                 </div>
 
           <div className="best">
                     SORT BY :<a>Bestsellers <img src="https://cdn-icons-png.flaticon.com/512/203/203484.png" alt="" width="10px"/></a>
                   </div>
 
-            <div className="cro">Girls 
+            <div className="cro">Sale 
                     <img src="https://icons.veryicon.com/png/o/miscellaneous/medium-thin-linear-icon/cross-23.png" alt="" width="20px"/>
                     </div>
 
@@ -176,13 +176,9 @@ const Girls = () => {
 
         </div>
 
-
-  
-    
-    
-    
-    </>
+   
+   </>
   )
 }
 
-export default Girls
+export default Sale
