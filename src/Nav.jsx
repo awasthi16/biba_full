@@ -24,7 +24,7 @@ const Nav = () => {
 
                 <div className="img1">
 
-                <img src="https://phoenixunited.s3.ap-south-1.amazonaws.com/BrandsImages/10072023164735895_brlo.png" alt="" width={120} height={100}/>
+               <Link to="/"> <img src="https://phoenixunited.s3.ap-south-1.amazonaws.com/BrandsImages/10072023164735895_brlo.png" alt="" width={120} height={100}/> </Link>
 
                 </div>
 
@@ -34,7 +34,7 @@ const Nav = () => {
 
                 </span>
 
-                <div className="search">
+                <div className="search1">
 
                     <img src="https://cdn-icons-png.freepik.com/512/7828/7828884.png" alt="" height={16} /> Search kurta, shirts and dupattas
 
@@ -44,14 +44,14 @@ const Nav = () => {
 
                     <ul>
 
-                        <li> <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="" height={30}/> </li>
+                        <li>  <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="" height={20}/>  </li>
 
-                        <li> <img onClick={()=>{setbb(true)}} src="https://static.vecteezy.com/system/resources/previews/026/630/551/non_2x/profile-icon-symbol-design-illustration-vector.jpg" alt="" height={30} /> </li>
+                        <li> <img onClick={()=>{setbb(true)}} src="https://static.vecteezy.com/system/resources/previews/026/630/551/non_2x/profile-icon-symbol-design-illustration-vector.jpg" alt="" height={20} /> </li>
 
                         
 
 
-                        <li className='l1'> <img src="https://i.pinimg.com/564x/13/9c/30/139c30b5b3a875a6e9d0500091164289.jpg" alt="" height={27} /> </li>
+                        <li className='l1'> <img src="https://i.pinimg.com/564x/13/9c/30/139c30b5b3a875a6e9d0500091164289.jpg" alt="" height={20} /> </li>
 
                     </ul>
 
@@ -122,10 +122,10 @@ const Nav = () => {
                         <li>  SUITS  </li>
                         <li>  KURTAS & TOPS  </li>
                         <li>  DRESSES   </li>
-                        <li> DRESS MATERIALS </li> 
-                        <li> BOTTOMS </li>
-                        <li> JEWELLERY </li>
-                        <li> FRAGRANCES </li>
+                        <li> <Link to="/dress_materials" className='lnk'>  DRESS MATERIALS </Link> </li> 
+                        <li> <Link to="/bottoms" className='lnk'> BOTTOMS </Link>  </li>
+                        <li> <Link to="/jewellery" className='lnk'> JEWELLERY </Link> </li>
+                        <li> <Link to="/fragrances" className='lnk'> FRAGRANCES </Link> </li>
                         <li> GIRLS </li>
                         <li> COLLECTIONS </li>
                         <li> CO-ORD SETS </li>
