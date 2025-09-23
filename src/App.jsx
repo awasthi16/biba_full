@@ -14,7 +14,6 @@ import Fragrances from './Fragrances'
 
 
 
-
 const App = () => {
   return (
     <>
@@ -28,13 +27,31 @@ const App = () => {
 
 
 
-<Nav/>
-    <Home/>
+
+    <BrowserRouter>
+
+    <Nav/>
+
+    <Routes>
+
+        <Route path='/' element={<Home/>}/>
+        <Route path='/dress_materials' element={<Dress_Materials/>}/>
+        <Route path='/bottoms' element={<Bottoms/>}/>
+        <Route path='/jewellery' element={<Jewellery/>}/>
+        <Route path='/fragrances' element={<Fragrances/>}/>
+        <Route path='/Girls' element={<Girls/>}/>
+         <Route path='/Collection' element={<Collection/>}/>
+          <Route path='/CoordSets' element={<CoordSets/>}/>
+           <Route path='/Sale' element={<Sale/>}/>
+
+
+    </Routes>
+    
     <Footer/>
-    <Girls/>
-    <Collection/>
-    <CoordSets/>
-    <Sale/>
+    
+    </BrowserRouter>
+   
+   
     </>
   )
 }

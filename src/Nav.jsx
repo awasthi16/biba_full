@@ -126,10 +126,10 @@ const Nav = () => {
                         <li> <Link to="/bottoms" className='lnk'> BOTTOMS </Link>  </li>
                         <li> <Link to="/jewellery" className='lnk'> JEWELLERY </Link> </li>
                         <li> <Link to="/fragrances" className='lnk'> FRAGRANCES </Link> </li>
-                        <li> GIRLS </li>
-                        <li> COLLECTIONS </li>
-                        <li> CO-ORD SETS </li>
-                        <li className='m2'> SALE </li>
+                        <li> <Link to="/Girls" className='lnk'>GIRLS</Link> </li>
+                        <li> <Link to="/Collection" className='lnk'>COLLECTION</Link></li>
+                        <li> <Link to="/CoordSets" className='lnk'>CO-ORD SETS</Link></li>
+                        <li className='m2'> <Link to="/sale" className='lnk'>SALE</Link> </li>
 
                     </ul>
 
