@@ -7,6 +7,11 @@ import Nav from './Nav'
 import Collection from './Collection'
 import CoordSets from './CoordSets'
 import Sale from './Sale'
+import Dress_Materials from './Dress_Materials'
+import Bottoms from './Bottoms'
+import Jewellery from './Jewellery'
+import Fragrances from './Fragrances'
+
 
 
 

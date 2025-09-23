@@ -100,6 +100,7 @@ cursor: pointer;
     align-items: center;
     gap: 60px;
     /* color: white; */
+    
 }
 .search {
     position: relative;
