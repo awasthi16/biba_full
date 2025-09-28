@@ -168,6 +168,66 @@ const Collection = () => {
                <p>MRP <b>₹ 1.819</b></p>
                </div> 
 
+                <div className="pho1">
+             <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwbd072c17/images/aw24/skdasrt10213aw24pur_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/> 
+               <p>Purple Embroidered straight  <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Suit Set</p>
+               <p>MRP <b>₹ 4,599</b></p>
+               </div>
+
+
+          <div className="pho1">
+           <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw68f7ed6a/images/aw25/skdvrnsi30546aw25red_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>  
+               <p>Red Embroidered Straight <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>  Suit Set</p>
+               <p>MRP <b>₹ 4,995</b></p>
+               </div>
+
+
+            <div className="pho1">
+             <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwb9414a30/images/ss25/wrkwr4030ss25lilpnk_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>  
+               <p>Li-Lac And Pink Printed Straight <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Co-Ord Set</p>
+               <p>MRP <b>₹ 2,599</b></p>
+               </div>
+
+                <div className="pho1">
+                <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwf3daf1e8/images/ss25/spiot2945ss25olv_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Olive Green Solid Straight <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Co-Ord Set</p>
+               <p>MRP <b>₹ 1.819</b></p>
+               </div> 
+
+                <div className="pho1">
+             <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwbd072c17/images/aw24/skdasrt10213aw24pur_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/> 
+               <p>Purple Embroidered straight  <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Suit Set</p>
+               <p>MRP <b>₹ 4,599</b></p>
+               </div>
+
+
+          <div className="pho1">
+           <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw68f7ed6a/images/aw25/skdvrnsi30546aw25red_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>  
+               <p>Red Embroidered Straight <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>  Suit Set</p>
+               <p>MRP <b>₹ 4,995</b></p>
+               </div>
+
+
+            <div className="pho1">
+             <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwb9414a30/images/ss25/wrkwr4030ss25lilpnk_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>  
+               <p>Li-Lac And Pink Printed Straight <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Co-Ord Set</p>
+               <p>MRP <b>₹ 2,599</b></p>
+               </div>
+
+                <div className="pho1">
+                <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwf3daf1e8/images/ss25/spiot2945ss25olv_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Olive Green Solid Straight <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Co-Ord Set</p>
+               <p>MRP <b>₹ 1.819</b></p>
+               </div> 
+
 
 
           </div>

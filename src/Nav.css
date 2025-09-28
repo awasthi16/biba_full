@@ -33,12 +33,9 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    
-}
+    }
 
-.img1 img{
-    margin-left: 60px;
-}
+
 
 .sp1 img{
     align-items: center;
@@ -83,7 +80,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-radius: 10px;
+    border-radius: 50px;
     height: 30px;
     align-items: center;
     gap: 10px;
@@ -108,7 +105,7 @@
 }
 
 .menu ul{
-    width: 75%;
+    width: 100%;
     list-style: none;
     flex-direction: row;
 
@@ -317,4 +314,102 @@
 .lnk{
     color: black;
     text-decoration: none;
+}
+
+.pd1{
+    width: 1100px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    display: flex;
+}
+
+.dd1{
+    width: 200px;
+    height: 400px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.dd2{
+    width: 200px;
+    height: 400px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.dd1 p{
+    padding: 10px;
+}
+
+.dd2 p{
+    padding: 10px;
+}
+
+.dd1 a{
+    color: brown;
+    padding: 10px;
+}
+
+.dd2 a{
+    color: brown;
+    padding: 10px;
+}
+
+.dd3{
+    width: 650px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+
+.pd2{
+   width: 1100px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    left: 100px;   
+    display: flex;
+}
+
+.pd3{
+   width: 1100px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    left: 100px; 
+    display: flex;  
+}
+
+.pd4{
+   width: 1100px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    left: 100px; 
+    display: flex; 
+    justify-content: space-around; 
+    gap: 100px;
+    padding: 10px;
+}
+
+.dd4{
+    width: 200px;
+    height: 400px;
+    /* border: 1px solid black; */
+}
+
+.dd4 p{
+    padding: 10px;
+}
+
+.dd4 a{
+    padding: 10px;
+    color: brown;
+    text-transform:uppercase;
 }

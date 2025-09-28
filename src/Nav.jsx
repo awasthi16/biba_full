@@ -6,6 +6,9 @@ const Nav = () => {
 
     const[bb,setbb]=useState(false)
 
+    const[as,setas]=useState(false)
+
+
   return (
 
     
@@ -120,16 +123,16 @@ const Nav = () => {
 
                         <li className='m1'>  FESTIVE'25   </li>
                         <li>  SUITS  </li>
-                        <li>  KURTAS & TOPS  </li>
-                        <li>  DRESSES   </li>
+                        <li> <Link to="/KurtaandTops" className='lnk'> KURTAS & TOPS  </Link></li>
+                        <li> <Link to="/dresses" className='lnk'> DRESSES</Link>   </li>
                         <li> <Link to="/dress_materials" className='lnk'>  DRESS MATERIALS </Link> </li> 
                         <li> <Link to="/bottoms" className='lnk'> BOTTOMS </Link>  </li>
-                        <li> <Link to="/jewellery" className='lnk'> JEWELLERY </Link> </li>
-                        <li> <Link to="/fragrances" className='lnk'> FRAGRANCES </Link> </li>
-                        <li> <Link to="/Girls" className='lnk'>GIRLS</Link> </li>
-                        <li> <Link to="/Collection" className='lnk'>COLLECTION</Link></li>
+                        <li onMouseOver={()=>{setas("s1")}}> <Link to="/jewellery" className='lnk'> JEWELLERY </Link> </li>
+                        <li > <Link to="/fragrances" className='lnk'> FRAGRANCES </Link> </li>
+                        <li onMouseOver={()=>{setas("s2")}}> <Link to="/Girls" className='lnk'>GIRLS</Link> </li>
+                        <li onMouseOver={()=>{setas("s3")}}> <Link to="/Collection" className='lnk'>COLLECTION</Link></li>
                         <li> <Link to="/CoordSets" className='lnk'>CO-ORD SETS</Link></li>
-                        <li className='m2'> <Link to="/sale" className='lnk'>SALE</Link> </li>
+                        <li onMouseOver={()=>{setas("s4")}} className='m2'> <Link to="/sale" className='lnk'>SALE</Link> </li>
 
                     </ul>
 
@@ -138,6 +141,103 @@ const Nav = () => {
 
 
             </div>
+
+
+            {as=="s1"&&
+                 <div className="pd1">
+                     <div className="dd1">
+                        <a>CATEGORY </a>
+                        <p>Shop All</p>
+                        <p>Earrings</p>
+                        <p>Necklaces and Seta</p>
+                        <p>Bangles and Bracelets</p>
+                        <p>Addons</p>
+                    </div>
+                    <div className="dd2">
+                        <a>COLLECTION</a>
+                        <p>shop All</p>
+                        <p>Contemporary</p>
+                        <p>Festive</p>
+                    </div>
+              <img className='dd3' src="https://images.biba.in/on/demandware.static/-/Sites-biba-india/default/dw39f87d5a/nav-jewellery-sept18.jpg" alt="" width="600px"/>
+               
+                   
+                </div>}
+            
+                {as=="s2"&&
+
+                <div className="pd2">
+                     <div className="dd1">
+                        <a>CATEGORY </a>
+                        <p>Shop All</p>
+                        <p>Straight Suit Sets</p>
+                        <p>Anarkali Suit Sets</p>
+                        <p>Flared & Sharara Suit Sets</p>
+                        <p>A-line & Kalidar Suits</p>
+                        <p>Lehengas & Skirt Sets</p>
+                        <p>Tops & Tunics</p>
+                        <p>Frocks & Dresses</p>
+                        <p>Pants & Leggings</p>
+                        <p>Western sets</p>
+                        <p>Girls Sleepwear</p>
+                        <p>Shorts & Skirts</p>
+                    </div>
+                    <div className="dd2">
+                        <a>COLLECTION</a>
+                        <p>shop All</p>
+                        <p>Autumn Winter</p>
+                        <p>Casual</p>
+                        <p>Festive</p>
+                        <p>Spring Summer</p>
+                        <p>Winterwear</p>
+                    </div>
+                    <img className='dd3' src="https://images.biba.in/on/demandware.static/-/Sites-biba-india/default/dw7dc7fa67/nav-girls-sept9.jpg" alt="" width="600px"/>
+                     
+                      </div>}
+
+
+                {as=="s3"&&
+                <div className="pd3">
+                    <div className="dd1">
+                        <a>CATEGORY </a>
+                        <p>Shop All</p>
+                        <p>Durga Puja Edit</p>
+                        <p>Navratri Celebration</p>
+                        <p>Plus Size Collection</p>
+                        <p>Online Exclusive</p>
+                    </div>
+                    <div className="dd2">
+                        <a>COLLECTION</a>
+                        <p>shop All</p>
+                        <p>BIBA by Rohit Bal</p>
+                        <p>Wedding Splendor</p>
+                        <p>Festive</p>
+                        <p>Office Oomph</p>
+                        <p>Everyday Grace</p>
+                        <p>Indigo Chronicles</p>
+                        <p>Posh Palette</p>
+                        <p>Curio Edit</p>
+                    </div>
+                   <img className='dd3' src="https://images.biba.in/on/demandware.static/-/Sites-biba-india/default/dwc123c08a/nav-collection-sept17.jpg" alt="" />
+                    </div>}
+                
+                {   as=="s4"&&
+                        <div className="pd4">
+                            <div className="dd4">
+                                <a>Category</a>
+                                <p>Shop All</p>
+                                <p>Suit Sets</p>
+                                <p>Kurtas and Tops</p>
+                                <p>Dresses</p>
+                                <p>Bottoms</p>
+                                <p>Jewellary</p>
+                                <p>Fragrance</p>
+                                <p>Girls</p>
+                            </div>
+                        <img className='dd3' src="https://images.biba.in/on/demandware.static/-/Sites-biba-india/default/dwe44c33ce/nav-aug1.jpg" alt="" />
+                  </div>}
+                
+                
 
            
             

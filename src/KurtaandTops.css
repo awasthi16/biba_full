@@ -1,13 +1,13 @@
 .table1{
     width: 100%;
-    height: 4500vh;
+    height: 450vh;
     border: 2px solid black;
     display: flex;
 }
 
 .table2{
     width: 20%;
-    height: 300vh;
+    height: 100vh;
     /* border: 1px solid black; */
     /* display: flex; */
 }
@@ -56,16 +56,16 @@
 
 }
 
-.heding{
+.hding{
     /* border: 1px solid black; */
-    width: 200px;
+    width: 400px;
     height: 50px;
     display: flex;
     margin-top: 60px;
     margin-left: 20px;
 }
 
-.heding a{
+.hding a{
     margin-top: 15px;
 }
 
@@ -81,8 +81,8 @@
     gap: 15px;
 }
 
-.cro{
-    width: 140px;
+.crro{
+    width: 200px;
     height: 30px;
     justify-content: center;
     align-items: center;

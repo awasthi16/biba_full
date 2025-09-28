@@ -167,6 +167,65 @@ const Girls = () => {
                <p>MRP <b>₹ 1.819</b></p>
                </div> 
 
+            <div className="pho1">
+             <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw3b07481d/images/aw24/kwsprk6142aw24chmp_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>  
+               <p>Champange Polyester Blend  <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Straight Dress</p>
+               <p>MRP <b>₹ 1,949</b></p>
+               </div>
+
+
+          <div className="pho1">
+            <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwcac90c3d/images/ss25/kw4977ess25sgrn_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Sea Green Polyester straight<img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p> Solid Suit Set</p>
+               <p>MRP <b>₹ 2,599</b></p>
+               </div>
+
+
+            <div className="pho1">
+             <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwe7cfd3a1/images/aw25/kwprsmkt6456aw25pur_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/> 
+               <p>Purple Polyester Solid Kalidar <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Suit Set</p>
+               <p>MRP <b>₹ 3,999</b></p>
+               </div>
+
+                <div className="pho1">
+            <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw95e81eb2/images/ss25/kwfnfes6390oss25grn_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>  
+               <p>Teal Green Printed Peplum  <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Lehenga Set</p>
+               <p>MRP <b>₹ 1.819</b></p>
+               </div> 
+
+            <div className="pho1">
+             <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw3b07481d/images/aw24/kwsprk6142aw24chmp_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>  
+               <p>Champange Polyester Blend  <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Straight Dress</p>
+               <p>MRP <b>₹ 1,949</b></p>
+               </div>
+
+
+          <div className="pho1">
+            <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwcac90c3d/images/ss25/kw4977ess25sgrn_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Sea Green Polyester straight<img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p> Solid Suit Set</p>
+               <p>MRP <b>₹ 2,599</b></p>
+               </div>
+
+
+            <div className="pho1">
+             <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwe7cfd3a1/images/aw25/kwprsmkt6456aw25pur_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/> 
+               <p>Purple Polyester Solid Kalidar <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Suit Set</p>
+               <p>MRP <b>₹ 3,999</b></p>
+               </div>
+
+                <div className="pho1">
+            <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw95e81eb2/images/ss25/kwfnfes6390oss25grn_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>  
+               <p>Teal Green Printed Peplum  <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Lehenga Set</p>
+               <p>MRP <b>₹ 1.819</b></p>
+               </div> 
 
 
           </div>

@@ -11,6 +11,9 @@ import Dress_Materials from './Dress_Materials'
 import Bottoms from './Bottoms'
 import Jewellery from './Jewellery'
 import Fragrances from './Fragrances'
+import KurtaandTops from './KurtaandTops'
+import Dresses from './Dresses'
+
 
 
 
@@ -34,15 +37,19 @@ const App = () => {
 
     <Routes>
 
+       
         <Route path='/' element={<Home/>}/>
+         <Route path='/KurtaandTops' element={<KurtaandTops/>}/>
+         <Route path='/Dresses' element={<Dresses/>}/>
         <Route path='/dress_materials' element={<Dress_Materials/>}/>
         <Route path='/bottoms' element={<Bottoms/>}/>
         <Route path='/jewellery' element={<Jewellery/>}/>
         <Route path='/fragrances' element={<Fragrances/>}/>
         <Route path='/Girls' element={<Girls/>}/>
          <Route path='/Collection' element={<Collection/>}/>
-          <Route path='/CoordSets' element={<CoordSets/>}/>
-           <Route path='/Sale' element={<Sale/>}/>
+         <Route path='/CoordSets' element={<CoordSets/>}/>
+         <Route path='/Sale' element={<Sale/>}/>
+        
 
 
     </Routes>

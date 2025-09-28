@@ -167,6 +167,67 @@ const CoordSets = () => {
                <p>MRP <b>₹ 2,339</b></p>
                </div> 
 
+                <div className="pho1">
+                <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw9df274be/images/ss24/workwear2304ss24limyel_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Lime Yellow Rayon Printed <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Straight Kurta Set</p>
+               <p>MRP <b>₹ 2,339</b></p>
+               </div>
+
+
+          <div className="pho1">
+               <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwf2abd0cf/images/aw24/wntwr2644aw24tel_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Teal Knit Straight Set<img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p></p>
+               <p>MRP <b>₹ 1,949</b></p>
+               </div>
+
+
+            <div className="pho1">
+                <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw56963a1a/images/ss24/ribayat2346ss24yel_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Yellow Rayon Straight <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Kurta Set</p>
+               <p>MRP <b>₹ 1,949</b></p>
+               </div>
+
+                <div className="pho1">
+                  <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwda3cac3d/images/aw23/wntrw2223aw23fus_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p> Fuchsia Cotton Blend Straight<img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p> Yarndyed 2 Piece Set </p>
+               <p>MRP <b>₹ 2,599</b></p>
+               </div> 
+
+                <div className="pho1">
+               <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw6c79cb01/images/aw23/whimsica2114aw23yel_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Yellow Polyester Straight  <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Printed 2 Piece Set</p>
+               <p>MRP <b>₹ 2,399</b></p>
+               </div>
+
+
+          <div className="pho1">
+              <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw99160499/images/aw24/asrt2003eaw24mgnt_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+             <p>Yellow Cotton Blend Straight<img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p> Yarndyed 2 Piece Set</p>
+               <p>MRP <b>₹ 2,599</b></p>
+               </div>
+
+
+            <div className="pho1">
+               <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwed6450ca/images/aw23/wntrw2240aw23ind_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Indigo Poly Spandex Straight <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p>Printed 2 Piece Set</p>
+               <p>MRP <b>₹ 1,799</b></p>
+               </div>
+
+                <div className="pho1">
+                 <img src="https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dw2cc20e6e/images/aw23/wntrw2212aw23pckblu_1.jpg?sw=242&sh=363&q=100&strip=false" alt="" width="250px"/>
+               <p>Peacock Blue Polyester Straight
+                <img src="https://static.vecteezy.com/system/resources/previews/005/948/320/non_2x/heart-icon-design-element-logo-element-illustration-love-symbol-icon-free-vector.jpg" alt="" width="20px"/></p>
+               <p> Printed 2 Piece Set</p>
+               <p>MRP <b>₹ 2,599</b></p>
+               </div> 
+
 
 
           </div>

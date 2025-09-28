@@ -104,6 +104,7 @@ const Footer = () => {
     </div>
 
     <div className="tt3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3fFaq24y_Lr8YYd7a9zzWoK2M8yj92z_8RA&s" alt="" width="30px"/>
         256 BIT Encryption
     </div>
 
@@ -112,6 +113,11 @@ const Footer = () => {
 <div className="tt4">
     Copyright to Biba store  Name of Manufacturer - BIBA Fashion Limited  Country of Manufacture - India
 </div>
+
+    <div className="tt5">
+        <p>BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS/FRAUDULENT OFFERS</p>
+        <p>Please be advised that BIBA does not run any promotions or offers involving electronics or high-value products outside of our business. We will never ask for personal information, payments, or banking details over the phone. Any such messages are not authorized by BIBA and should be ignored to protect yourself from potential scams.</p>
+    </div>
 
 
 </div>
