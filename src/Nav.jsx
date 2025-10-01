@@ -1,12 +1,16 @@
 import React, { useState } from 'react'
 import "./Nav.css"
+// import style from "./Nav.module.css"
 import { Link } from 'react-router-dom'
+import Profile from './Profile'
 
 const Nav = () => {
 
     const[bb,setbb]=useState(false)
 
     const[as,setas]=useState(false)
+
+    const [cart,setcart]= useState(false)
 
 
   return (
@@ -16,6 +20,8 @@ const Nav = () => {
     <>
     
         
+
+            {/* <div className={style.navbar}> */}
 
             <div className='navbar'>
 
@@ -47,18 +53,20 @@ const Nav = () => {
 
                     <ul>
 
-                        <li>  <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="" height={20}/>  </li>
+                        <li> <Link to="/profile"> <img src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="" height={20}/> </Link> </li>
 
                         <li> <img onClick={()=>{setbb(true)}} src="https://static.vecteezy.com/system/resources/previews/026/630/551/non_2x/profile-icon-symbol-design-illustration-vector.jpg" alt="" height={20} /> </li>
 
                         
 
 
-                        <li className='l1'> <img src="https://i.pinimg.com/564x/13/9c/30/139c30b5b3a875a6e9d0500091164289.jpg" alt="" height={20} /> </li>
+                        <li className='l1'> <img onMouseOver={()=>{setcart("b6")}} src="https://i.pinimg.com/564x/13/9c/30/139c30b5b3a875a6e9d0500091164289.jpg" alt="" height={20} /> </li>
 
                     </ul>
 
                 </div>
+
+
 
                  {bb && <div className="bigbox">
 
@@ -117,22 +125,45 @@ const Nav = () => {
                 
                 </div>}
 
+                  { cart == "b6" &&
+
+                    <div className="cart_profile" onMouseLeave={()=>setcart(false)}>
+
+                        
+                          <h4>  MY CART </h4>
+
+                          <img src= "./src/assets/images/cart1.jpg" alt="" width={200} height={120} />
+
+                          <h4 className='txt'>  Looks like you haven't made any choices yet  </h4>
+                        
+                         <div className='cart_div'>
+                         <Link to="/profile"> <button className='btn_cart'>  ADD ITEMS FROM WISHLIST  </button> </Link>
+                         </div>
+                         
+
+
+
+
+                    </div>
+
+                }
+
                 <div className="menu">
 
                     <ul>
 
-                        <li className='m1'>  FESTIVE'25   </li>
-                        <li>  SUITS  </li>
-                        <li> <Link to="/KurtaandTops" className='lnk'> KURTAS & TOPS  </Link></li>
-                        <li> <Link to="/dresses" className='lnk'> DRESSES</Link>   </li>
+                        <li className='m1' onMouseOver={()=>setas("b1")}> <Link to="/festive25" className='lnk1'>  FESTIVE'25 </Link>  </li>
+                        <li onMouseOver={()=>setas("b2")}> <Link to ="/suit_sets" className='lnk'> SUIT SETS </Link> </li>
+                        <li onMouseOver={()=>setas("b3")}> <Link to="/KurtaandTops" className='lnk'> KURTAS & TOPS  </Link></li>
+                        <li onMouseOver={()=>setas("b4")}> <Link to="/dresses" className='lnk'> DRESSES</Link>   </li>
                         <li> <Link to="/dress_materials" className='lnk'>  DRESS MATERIALS </Link> </li> 
-                        <li> <Link to="/bottoms" className='lnk'> BOTTOMS </Link>  </li>
+                        <li onMouseOver={()=>setas("b5")}> <Link to="/bottoms" className='lnk'> BOTTOMS </Link>  </li>
                         <li onMouseOver={()=>{setas("s1")}}> <Link to="/jewellery" className='lnk'> JEWELLERY </Link> </li>
                         <li > <Link to="/fragrances" className='lnk'> FRAGRANCES </Link> </li>
                         <li onMouseOver={()=>{setas("s2")}}> <Link to="/Girls" className='lnk'>GIRLS</Link> </li>
                         <li onMouseOver={()=>{setas("s3")}}> <Link to="/Collection" className='lnk'>COLLECTION</Link></li>
                         <li> <Link to="/CoordSets" className='lnk'>CO-ORD SETS</Link></li>
-                        <li onMouseOver={()=>{setas("s4")}} className='m2'> <Link to="/sale" className='lnk'>SALE</Link> </li>
+                        <li onMouseOver={()=>{setas("s4")}} className='m2'> <Link to="/sale" className='lnk1'>SALE</Link> </li>
 
                     </ul>
 
@@ -141,6 +172,160 @@ const Nav = () => {
 
 
             </div>
+
+            {as=="b1" && 
+            <div>
+                
+                <div className="bb1" onMouseLeave={()=>setas(false)}>
+
+                    <ul className='hvr_menu'>
+
+                        <li className='hvr_menu_heading'> CATEGORY </li>
+                        <li className='hvr_menu_selected'> Shop All </li>
+                        <li> Suit Sets </li>
+                        <li> Kurtas & Tops </li>
+                        <li> Dresses </li>
+                        <li> Bottoms </li>
+                        <li> Girls </li>
+                        <li> Saree </li>
+
+                    </ul>
+
+                    <img src="https://images.biba.in/on/demandware.static/-/Sites-biba-india/default/dw1cc90c82/nav-new-sept9.jpg" alt="" width={700} height={320} />
+
+
+
+                </div>
+                
+                
+                </div>}
+
+                {as=="b2" && 
+            <div>
+                
+                <div className="bb2">
+
+                        <ul className='hvr_menu1'>
+
+                            <li className='hvr_menu_heading'> CATEGORY </li>
+                            <li className='hvr_menu_selected'> Shop All</li>
+                            <li> Straight Suit Sets </li>
+                            <li> Anarkali Suit Sets </li>
+                            <li> Flared Suit Sets </li>
+                            <li> A-line & Kalidar Suits </li>
+                            <li> Asymmetric Suits </li>
+                            <li> Fusion Suit Sets </li>
+                            <li> Lehengas & Skirt Sets </li>
+                            <li> Unstitched Suit Sets </li>
+
+                        </ul>
+
+                        <ul className='hvr_menu2'>
+
+                            <li className='hvr_menu_heading'> COLLECTION </li>
+                            <li className='hvr_menu_selected'> Shop All </li>
+                            <li> Autumn Winter </li>
+                            <li> Festive </li>
+                            <li> Spring Summer </li>
+                            <li> Winterwear </li>
+                            <li> Workwear </li>
+
+                        </ul>
+
+                        <img src="https://images.biba.in/on/demandware.static/-/Sites-biba-india/default/dw7f813eaf/nav-suit-sept17.jpg" alt="" height={320} width={700}/>
+                    
+
+                </div>
+                
+                
+                </div>}
+
+                {as=="b3" && 
+            <div>
+                
+                <div className="bb3">
+
+                      <ul className='hvr_menu1'>
+
+                            <li className='hvr_menu_heading'> CATEGORY </li>
+                            <li className='hvr_menu_selected'> Shop All</li>
+                            <li> Kurtas </li>
+                            <li> Kurtis & Tops </li>
+                            <li> Shrugs & Jackets </li>
+                            <li> Dupattas & Scarves </li>
+                            <li> Nighty & More </li>
+
+                        </ul>
+
+                        <ul className='hvr_menu2'>
+
+                            <li className='hvr_menu_heading'> COLLECTION </li>
+                            <li className='hvr_menu_selected'> Shop All </li>
+                            <li> Classic Solids </li>
+                            <li> Autumn Winter </li>
+                            <li> Festive </li>
+                            <li> Spring Summer </li>
+                            <li> Winterwear </li>
+                            <li> Workwear </li>
+
+                        </ul>
+
+                        <img src="https://images.biba.in/on/demandware.static/-/Sites-biba-india/default/dw46ebdee0/nav-kurta-sept17.jpg" alt="" height={320} width={700}/>
+
+                </div>
+                
+                
+                </div>}
+
+                {as=="b4" && 
+            <div>
+                
+                <div className="bb4">
+
+
+                         <ul className='hvr_menu'>
+
+                        <li className='hvr_menu_heading'> COLLECTION </li>
+                        <li className='hvr_menu_selected'> Shop All </li>
+                        <li> Autumn Winter </li>
+                        <li> Casual </li>
+                        <li> Festive </li>
+                        <li> Spring Summer </li>
+                        <li> Workwear </li>
+
+                    </ul>
+
+                    <img src="https://images.biba.in/on/demandware.static/-/Sites-biba-india/default/dw7ef1299e/nav-dress-sept18.jpg" alt="" width={700} height={320} />
+                    
+
+                </div>
+                
+                
+                </div>}
+
+                {as=="b5" && 
+            <div>
+                
+                <div className="bb5">
+
+                     <ul className='hvr_menu'>
+
+                        <li className='hvr_menu_heading'> CATEGORY </li>
+                        <li className='hvr_menu_selected'> Shop All </li>
+                        <li> Churidar & Leggings </li>
+                        <li> Pants </li>
+                        <li> Palazzos </li>
+                        <li> Salwar </li>
+                        <li> Skirts & Shararas </li>
+
+                    </ul>
+
+                    <img src="https://images.biba.in/on/demandware.static/-/Sites-biba-india/default/dw98636bcc/nav-bottom-sept9.jpg" alt="" width={700} height={320} />                    
+
+                </div>
+                
+                
+                </div>}
 
 
             {as=="s1"&&

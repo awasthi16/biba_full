@@ -139,6 +139,7 @@
 
 .t5 img{
     mix-blend-mode: multiply;
+    z-index: 0;
 }
 
 .slct1{

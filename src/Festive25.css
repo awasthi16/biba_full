@@ -123,6 +123,8 @@
     
 }
 
+
+
 .t5{
     width: fit-content;
     padding-right: 10px;
@@ -130,6 +132,7 @@
     border: 1px solid black;
     border-radius: 10px;
     background-color: rgb(211, 211, 211);
+    /* background: transparent; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,9 +140,14 @@
     font-size: 14px;
 }
 
-.t5 img{
-    mix-blend-mode: multiply;
-}
+/* .t5 img{
+    
+    background-blend-mode: multiply;
+    
+    
+    
+    
+} */
 
 .slct1{
     width: 100px;
@@ -154,10 +162,9 @@
     font-weight: bold;
 }
 
-.t16{
-    padding-left: 200px;
-    padding-right: 415px;
-   
+.t36{
+    padding-left: 300px;
+    padding-right: 420px;
 }
 
  
@@ -191,13 +198,13 @@
 
 }
 
-.items{
+.items2{
     /* border: 1px solid black; */
     /* height: 200vh; */
     width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
+    /* justify-content: center; */
     flex-wrap: wrap;
     row-gap: 40px;
     column-gap: 10px;
@@ -211,54 +218,60 @@
 
 
 
-.item1{
+.item21{
     width: 250px;
     height: 380px;
     padding-bottom: 20px;
     
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap; */
+     display: flex;
+    /* justify-content: space-around;
+    align-items: center; */
+    flex-wrap: wrap; 
     /* border: 1px solid black; */
     /* row-gap: 10px;
     
     margin-bottom: 20px; */
 }
 
-.item1 tr{
+.item21 tr{
     flex-direction: row;
     width: 100%;
-    gap: 1px;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap; */
+    /* gap: 1px; */
+     /* display: flex; */
+    /*align-items: center;
+    justify-content: space-around; */
+    flex-wrap: wrap; 
     
 }
 
-.it1{
+.it21{
     font-size: 16px;
-    padding-bottom: 10px;
-    width: 220px;
+    
+    width: 230px;
+    flex-direction: row;
+    
     /* height: 70px; */
     display: flex;
+    padding-right: 20px;
     /* align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap; */
+    justify-content: space-around; */
+    flex-wrap: wrap; 
+    padding-bottom: 10px;
 
 }
 
-.it2{
+.it22{
     width: 20px;
-    /* height: 50px; */
+    /* height: 20px; */
     margin-bottom: 15px;
-    
+    /* padding-left: 20px; */
+    float: left;
+    /* border-right: -10px; */
     /* border: 1px solid black; */
     /* margin-top: -25px; */
     /* margin-right: -30px;
-    margin-top: -25px;
-    float: right; */
+    margin-top: -25px; */
+    /* float: left; */
     
     
     
